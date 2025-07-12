@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* styles.css */
+.mycontainer{
+    @apply container py-1 mx-auto;
+}
