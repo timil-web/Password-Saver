@@ -16,10 +16,11 @@ const Navbar = () => {
                     <a className='hover:font-bold' href="$">Contact</a>
                 </li> */}
             {/* </ul> */}
-            <button className='text-white flex  rounded-full justify-center items-center ring-white ring-1 '>
+            
+            <a href="https://github.com/timil-web/Password-Saver" className='text-white flex  rounded-full justify-center items-center ring-white ring-1 '>
                 <img className='p-1' width={50} src="icons/github.png" alt="github logo" />
                 <span className='font-bold p-1'>GitHub</span>
-            </button>
+            </a>
         </div>
     </nav>
   )
